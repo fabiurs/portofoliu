@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stiluri.css">
+    <link rel="icon" type="image/png" href="imagini/icon.png" />
+    <script src="functii.js"></script>
+    <title>Bucuresti</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="continut">
+
+            <!-- TITLU  -->
+
+            <div class="title">
+                <h1>Bucuresti</h1>
+            </div>
+
+            <!-- MENIUL -->
+            <div class="menu">
+                <a href="index.html" class="meniu">Acasa</a>
+                <a href="administratie.html" class="meniu">Administratie</a>
+                <a href="istorie.html" class="meniu">Istorie</a>
+                <a href="cultura.html" class="meniu">Ieri/Azi</a>
+                <a href="turism.html" class="meniu">Obiective Turistice</a>
+                <a href="stiaica.html" class="meniu">Stiai ca..</a>
+                <a href="despre.html" class="meniu curent">Despre</a>
+            </div>
+            <!-- INFORMATIILE -->
+
+            <div class="info">
+
+                <div>
+                    <p>Poti lasa un mesaj mai jos:)</p>
+                    <br>
+                </div>
+
+                <form onsubmit="getName()" method="POST">
+                    <fieldset style="width: 300px;">
+                        <legend>Introduceti raspunsul aici:</legend>
+                        <label for="nume">Nume:</label><br>
+                        <input type="text" name="nume"><br>
+                        <label for="prenume">Prenume:</label><br>
+                        <input type="text" id="prenum" name="prenume"><br><br>
+                        <textarea name="mesaj" rows="10" cols="30" placeholder="Mesajul tau.."></textarea><br><br>
+                        <input type="submit" onclick="getName()" value="Trimite">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

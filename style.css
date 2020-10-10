@@ -1,0 +1,273 @@
+ /* #002F2F
+#046380
+#EFECCA
+#A7A37E
+#E6E2AF  */
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(4, 31, 31, 0.5);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #98d4d4;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #002F2F;
+  }
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #002F2F;
+}
+
+.click{
+    user-select: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #E6E2AF;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+
+}
+
+
+.welcome{
+    width: 18rem;
+    user-select: none;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    margin: 0 0 0 -150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#welcom{
+    opacity: 1;
+    transition: all 1.5s ease-out;
+}
+
+.btn-welcome{
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+#wrapper{
+    display: none;
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+#particles-js{
+    z-index: -100;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;    
+}
+
+#r1, #r2, #r3, #r4, #r5, #r6, #r7, #r8{
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+#eu{
+    opacity: 0;
+    transition: all 1.5s ease;
+}
+
+#btn-welcom{
+    opacity: 0;
+    transition: opacity 1.5s ease-in;
+}
+
+h2, p, h3{
+    color: #EFECCA;
+}
+
+h3, a{
+    font-family: 'Rowdies', cursive;
+}
+
+p{
+    font-family: 'Kalam', cursive;
+}
+
+.litera{
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.c-content{
+    margin-top: 4rem;
+    background-color: rgba(0, 47, 47, 0.7);
+}
+
+
+h2{
+    margin: 2.5rem;
+    font-size: 2rem;
+    font-family: 'Rowdies', cursive;
+    line-height: 0.8;
+}
+
+.title{
+    font-size: 1.3rem;
+}
+
+p.about-me{
+    font-size: 1.4rem;
+    text-indent: 2rem;
+}
+
+.titlu-proiect{
+    font-size: 1.4rem;
+    margin: 1rem;
+}
+
+.sal{
+    height: 4.5rem;
+}
+
+.salut{
+    color: #E6E2AF;
+    font-size: 3rem;
+}
+
+.c-nume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 9rem;
+}
+
+li{
+    list-style: none;
+    margin: 1rem 1rem 1rem 0rem;
+    font-size: 1.5rem;
+    transition: 1s;
+}
+
+a{
+    text-decoration: none;
+    color: #EFECCA;
+}
+
+a:hover{
+    text-decoration: none;
+    color: tomato;
+}
+
+ul.contact{
+    color: #EFECCA;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.text-contact{
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.contact-item:hover .text-contact{
+    opacity: 1;
+    color: tomato;
+}
+
+.imagine-proiect{
+    filter: brightness(80%) ;
+}
+
+.btn{
+    background-color: #c8d0e0;
+    transition: 0.6s;
+}
+
+.btn:hover{
+    color: #EFECCA;
+    background-color: rgba(68, 67, 112, 0.6)
+}
+
+.link-proiect{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row{
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 0.1px solid rgba(167, 163, 126, 0.2);
+    border-radius: 3rem;
+    background-color: rgba(167, 163, 126, 0.1);
+}
+
+.container-tag-proiect{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+}
+
+.tag{
+    color: rgba(239, 236, 202, 0.8);
+    background-color: rgba(0, 47, 47, 0.7);
+    font-size: 0.8rem;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+
+@media only screen and (max-width: 575.98px) { 
+    .cv{
+        margin-top: 3rem;
+    }
+}
+    
+@media only screen and (max-width: 767.98px) { 
+    .contact{
+        align-items: center;
+        justify-content: center;
+    }
+    .btn{
+        margin-top: 1rem;
+    }
+    #clk{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 767.98px){
+   
+}
+
+@media only screen and (max-width: 991.98px) {
+    .text-contact{
+        display: none;
+    }
+}
+/* 
+@media only screen and (max-width: 1199.98px) {
+
+} */

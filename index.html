@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/scripts.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175893821-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-175893821-1');
+</script>
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <title>Fabi Ursache</title>
+</head>
+
+<body onload="arataNume()">
+
+    <!-- Background -->
+
+    <div id="particles-js"></div>
+
+    <p class="click" id="clk">Click anywhere to add bubbles</p>
+
+    <!-- Welcome  -->
+
+    <div class="welcome" id="welcom">
+        <img src="images/me3.png" alt="Me" id="eu" class="img-fluid d-block mx-auto">
+        <h2>
+            <span class="litera">H</span>
+            <span class="litera">i</span>
+            <span class="litera">!</span>
+            <br>
+            <span class="litera">I</span>
+            <span class="litera">'</span>
+            <span class="litera">m</span>
+            <span class="litera">&nbsp;</span>
+            <span class="litera">F</span>
+            <span class="litera">a</span>
+            <span class="litera">b</span>
+            <span class="litera">i</span>
+            <span class="litera">!</span>   
+            <br>
+            
+            <span class="title">
+                <span class="litera">J</span>
+                <span class="litera">u</span>
+                <span class="litera">n</span>
+                <span class="litera">i</span>
+                <span class="litera">o</span>
+                <span class="litera">r</span>
+                <br>
+                <span class="litera">S</span>
+                <span class="litera">o</span>
+                <span class="litera">f</span>
+                <span class="litera">t</span>
+                <span class="litera">w</span>
+                <span class="litera">a</span>
+                <span class="litera">r</span>
+                <span class="litera">e</span>
+                <br>
+                <span class="litera">D</span>
+                <span class="litera">e</span>
+                <span class="litera">v</span>
+                <span class="litera">e</span>
+                <span class="litera">l</span>
+                <span class="litera">o</span>
+                <span class="litera">p</span>
+                <span class="litera">e</span>
+                <span class="litera">r</span>
+            </span>
+        </h2>
+        <button id="btn-welcom" class="btn btn-welcome" onclick="afiseaza()">View my portfolio</button>
+    </div>
+
+    <!-- Content -->
+
+    <div class="container" id="wrapper">
+
+        <div class="container c-content">
+            <div class="row" id="r1">
+                <div class="col-sm-7" style="padding-left: 0; margin: 0;">
+                    <div class="c-nume">
+                        <h2 style="margin: 0;">Fabian Ursache</h2>
+                    </div>
+                </div>
+
+                <!-- Contact -->
+
+                <div class="col-sm-5" style="padding: 0;">
+                    <ul class="contact" id="ctnt">
+                        <li class="contact-item">
+                            <a href="mailto:fabian24ursache@gmail.com">
+                                <i class="far fa-envelope"></i>
+                                <span class="text-contact">fabian24ursache@gmail.com</span>
+                            </a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="https://www.facebook.com/fabi.ursache/" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                                <span class="text-contact">Fabi Ursache</span>
+                            </a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="https://www.instagram.com/fabi.urs/" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                                <span class="text-contact">fabi.urs</span>
+                            </a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="https://www.linkedin.com/in/fabian-ursache/" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                                <span class="text-contact">Fabian Ursache</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row" id="r2">
+                <div class="col-sm-6">
+                    <div class="container-fluid d-flex justify-content-center sal">
+                        <p class="salut"></p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <p class="about-me">
+                        ​Welcome to my portfolio. I am thrilled you’ve come to visit my showcase of work that I’ve
+                        compiled
+                        over the time, which includes a combination of collaborations, commissioned work and personal
+                        projects. Take a look and feel free to get in touch if you’d like to discuss potential
+                        opportunities
+                        to work together.
+                    </p>
+                </div>
+            </div>
+
+            <!-- PROIECTE --> 
+
+            <div class="row" id="r3">
+                <div class="col-sm-8">
+                    <h3>My Projects</h3>
+                </div>
+                <div class="col-sm-4">
+                    <h3 class="cv"><a href="files/cv.pdf" target="_blank">See</a> or <a href="files/cv.pdf" download="cv">Download</a> my CV</h3>
+                </div>
+
+            </div>
+
+
+            <!-- BUCURESTI -->
+            <div class="row" id="r4">
+                <!-- imagine proiect -->
+                <div class="col-md-4 my-auto">
+                    <img src="images/bucuresti.jpg" alt="" class="rounded d-block img-fluid mx-auto">
+                </div>
+                <!-- buton spre site -->
+                <div class="col-md-2 link-proiect">
+                    <a href="proiecte/bucuresti/index.html" target="_blank" class="btn">Go to website</a>
+                    <a href="#/" data-toggle="tooltip" data-placement="right" title="Not yet available ;(" class="btn">GitHub</a>
+                </div>
+                <!-- informatii proiect -->
+                <div class="col-md-6">
+                    <p class="titlu-proiect">Bucuresti</p>
+                    <div class="container-tag-proiect">
+                        <span class="tag">Html</span>
+                        <span class="tag">Css</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <p class="info-proiect">
+                        One of my first projects. It was done during high school for the certificate project
+                    </p>
+                </div>
+            </div>
+
+            <!-- PORTOFOLIU -->
+            <div class="row" id="r5">
+                <!-- imagine proiect -->
+                <div class="col-md-4 my-auto">
+                    <img src="images/portofoliu.jpg" alt="portofoliu" class="d-block rounded img-fluid mx-auto">
+                </div>
+                <!-- buton spre site -->
+                <div class="col-md-2 link-proiect">
+                    <a href="proiecte/portofoliu/index.html" target="_blank" class="btn">Go to website</a>
+                    <a href="#/" data-toggle="tooltip" data-placement="right" title="Not yet available ;(" class="btn">GitHub</a>
+                </div>
+                <!-- informatii proiect -->
+                <div class="col-md-6">
+                    <p class="titlu-proiect">Portfolio</p>
+                    <div class="container-tag-proiect">
+                        <span class="tag">Html</span>
+                        <span class="tag">Css</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Responsive</span>
+                    </div>
+                    
+                    <p class="info-proiect">
+                        My first responsive website and also my first web portfolio.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Game C++ -->
+            <div class="row" id="r6">
+                <!-- imagine proiect -->
+                <div class="col-md-4 my-auto">
+                    <img src="images/ss/1.jpg" alt="" class="rounded d-block img-fluid mx-auto">
+                </div>
+                <!-- buton spre site -->
+                <div class="col-md-2 link-proiect">
+                    <a href="images/ss/imagini.html" target="_blank" class="btn">View Screenshots</a>
+                    <a href="https://github.com/fabiurs/proiectJoc" target="_blank" class="btn">GitHub</a>
+                </div>
+                <!-- informatii proiect -->
+                <div class="col-md-6">
+                    <p class="titlu-proiect" >Games Aplication</p>
+                    <div class="container-tag-proiect">
+                        <span class="tag">C++</span>
+                    </div>
+                    <p class="info-proiect">
+                        This is a project made in highschool. It is a c++ application that includes several games such as mineswepper, Tic Tac Toe, Hangman and others
+                    </p>
+                </div>
+            </div>
+
+            <!-- GAME HUB -->
+            <div class="row" id="r7">
+                <!-- imagine proiect -->
+                <div class="col-md-4 my-auto">
+                    <img src="images/games.jpg" alt="" class="rounded d-block img-fluid mx-auto">
+                </div>
+                <!-- buton spre site -->
+                <div class="col-md-2 link-proiect">
+                    <a href="proiecte/gamehub/index.html" target="_blank" class="btn">Go to website</a>
+                    <a href="#/" data-toggle="tooltip" data-placement="right" title="Not yet available ;(" class="btn">GitHub</a>
+                </div>
+                <!-- informatii proiect -->
+                <div class="col-md-6">
+                    <p class="titlu-proiect">Game Hub</p>
+                    <div class="container-tag-proiect">
+                        <span class="tag">Html</span>
+                        <span class="tag">Css</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">p5.js</span>
+                    </div>
+                    
+                    <p class="info-proiect">
+                        This is my favorite project I have worked on a lot. I wanted to use my passion and skills for programming and games. These two games were made using the JavaScript library p5.js. Unfortunately for now it can only be used on the PC
+                    </p>
+                </div>
+            </div>
+
+            <!-- DISPOZITIVE -->
+            <div class="row" id="r8">
+                <!-- imagine proiect -->
+                <div class="col-md-4 my-auto">
+                    <img src="images/dispozitive.jpg" alt="" class="d-block rounded img-fluid mx-auto">
+                </div>
+                <!-- buton spre site -->
+                <div class="col-md-2 link-proiect">
+                    <a href="proiecte/dispozitive/index.html" target="_blank" class="btn">Go to website</a>
+                    <a href="#/" data-toggle="tooltip" data-placement="right" title="Not yet available ;(" class="btn">GitHub</a>
+                </div>
+                <!-- informatii proiect -->
+                <div class="col-md-6">
+                    <div class="container-tag-proiect">
+                        <span class="tag">Html</span>
+                        <span class="tag">Css</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    
+                    <p class="info-proiect">
+                        A project for a certificate in which I used a template
+                    </p>
+                </div>
+            </div>
+            
+            <div class="container">
+                <p>Wanna get in touch or talk about a project?
+                    Feel free to <a href="#ctnt">contact me</a> </p>
+            </div>
+        </div>
+
+        <!-- For bootstrap -->
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+        <script>
+            $(document).ready(function(){
+              $('[data-toggle="tooltip"]').tooltip();
+            });
+            </script>
+
+        <!-- Typed JS -->
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+        <script src="typed/typedScript.js"></script>
+
+        <!-- particles -->
+
+        <script src="particles/particles.js"></script>
+        <script src="particles/app.js"></script>
+
+</body>
+
+</html>

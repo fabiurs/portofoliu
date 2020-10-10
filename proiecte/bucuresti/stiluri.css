@@ -1,0 +1,222 @@
+/* Color Theme Swatches in Hex */
+.Flat-UI-1-hex { color: #2C3E50; }
+.Flat-UI-2-hex { color: #E74C3C; }
+.Flat-UI-3-hex { color: #ECF0F1; }
+.Flat-UI-4-hex { color: #3498DB; }
+.Flat-UI-5-hex { color: #2980B9; }
+
+/* Color Theme Swatches in RGBA */
+.Flat-UI-1-rgba { color: rgba(43, 61, 79, 1); }
+.Flat-UI-2-rgba { color: rgba(230, 75, 59, 1); }
+.Flat-UI-3-rgba { color: rgba(235, 239, 240, 1); }
+.Flat-UI-4-rgba { color: rgba(52, 151, 219, 1); }
+.Flat-UI-5-rgba { color: rgba(40, 128, 184, 1); }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("imagini/poza_background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: cursive;
+    color: #2C3E50;
+    font-size: 40px;
+    margin-left: 70px;
+}
+
+a {
+    cursor: pointer;
+}
+
+/* -------------------- */
+/* MENIU */
+/* -------------------- */
+
+.wrapper{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.continut {
+    position: relative;
+    width: 70%;
+    height: auto;
+    padding: 10px 50px 50px 50px;
+    background-color: #ECF0F1;
+    border: #ECF0F1 solid;
+    border-radius: 25px;
+}
+
+.menu {
+    background-color: rgba(43, 61, 79, 1);
+    position: relative;
+    height: 60px ;
+    padding: 0;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 2px;
+    z-index: 2;
+}
+
+a.meniu {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition: 0.3s;
+}
+
+.meniu:hover, a.curent{
+    font-size: 23px;
+    color: rgba(230, 75, 59, 1);
+}
+
+
+/* --------------------- */
+/* SUBMENIU */
+/* --------------------- */
+
+li {
+    float: left;
+    margin: 25px;
+    list-style: none;
+}
+
+a.sub-meniu {
+    font-size: 18px;
+    color: #E74C3C;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+
+a.sub-meniu:hover {
+    color:#2C3E50;
+    font-size: 19px;
+}
+
+
+/* -------------------- */
+/* INFORMATII */
+/* -------------------- */
+
+.info {
+    padding: 40px;;
+}
+
+p {
+    padding-top: 25px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+iframe {
+    padding: 25px;
+}
+
+table, th, td {
+    padding: 15px;
+}
+
+th {
+    background-color: #2C3E50;
+    color: white;
+    text-transform: uppercase;
+}
+
+td {
+    background-color: #3498DB;
+}
+
+caption {
+    font-family: cursive;
+    color: #2C3E50;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.evidentiaza {
+    font-size: 20px;
+}
+
+img.imagine-turism{
+    padding: 15px;
+    width: 270px;
+    transition: 1s;
+}
+
+img.imagine-turism:hover{
+    z-index: 1;
+    transform: scale(1.7, 1.7);
+}
+
+h3 {
+    text-decoration: underline;
+    color: #2C3E50;
+}
+
+.descriere{
+    float: right;
+}
+
+input {
+    padding: 5px;
+    margin: 10px;
+}
+
+input, textarea{
+    border-radius: 5px;
+}
+
+input[type=submit]:hover{
+    background-color: #3498DB;
+    cursor: pointer;
+}
+
+input:focus{
+    background: lightsteelblue;
+}
+
+.mobil{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2C3E50;
+    color: #ECF0F1;
+}
+
+@media all and (max-width: 1099px){
+    a.meniu{
+        font-size: 15px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 852px){
+    .wrapper{
+        display: none;
+    }
+
+    .mobil{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+    }
+}
+

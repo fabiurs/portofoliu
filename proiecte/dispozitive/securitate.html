@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>DM</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link rel="icon" type="image/png" href="images/icnBara.png"/>
+  <script>
+    function timp()
+    {
+      document.getElementById('tmp').innerHTML=Date(); 
+      document.getElementById('tmp').style.color = "lightblue";
+    }
+  </script>
+</head>
+
+<body>
+  <div class="main">
+    <div class="pagina">
+      
+      <div class="header">
+        <h1>Dispozitive Mobile</h1>
+      </div>
+      
+      <div class="topmenu">
+        <ul>
+          <li><a href="index.html">Acasa</a></li>
+          <li><a href="tipuri.html">Tipuri de Dispozitive</a></li>
+          <li><a href="utilizare.html">Utilizare</a></li>
+          <li><a href="avantdezavant.html">Avantaje/Dezavantaje</a></li>
+          <li><a href="securitate.html">Securitate</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <p>Dispozitivele mobile, smartphone-uri și tabletele, trebuie să îndeplinească anumite cerințe de <strong>securitate</strong> considerate de bază: confidențialitate, integritate și disponibilitate. Pentru a atinge aceste obiective, telefoanele și tabletele trebuie securizate pentru o largă varietate de amenințări.</p>
+            <br><br>
+        <p>Principalele riscuri si amenințări</p>
+        
+        <p>Dispozitivele mobile trebuie sa asigure îndeplinirea a cel puțin 3 obiective majore de siguranță:</p> 
+        <ul>
+          <li class="lista">Confidențialitate datele accesate și/sau transmise/recepționate nu sunt citite de terți</li>
+          <li class="lista">Integritate detectarea oricăror schimbări ale datelor transmise / recepționate, intenționate sau neintenționate</li>
+          <li class="lista">Disponibilitate utilizatorul poate accesa date și resurse atunci când are nevoie de acestea</li>
+        </ul>
+        <img src="images/s2.jpg" style="float: right; width: 350px; height: 300px; padding: 10px;">
+        <br> <br>
+        <p>De cele mai multe ori, dispozitivele mobile necesită elemente de securitate suplimentare
+          față de cele clasice utilizate de specialiștii IT, în primul rând pentru că, prin natura lor,
+          dispozitivele mobile sunt mult mai expuse. Înainte de a defini un plan de securizare a
+          dispozitivelor mobile, organizațiile ar trebui să definească modele de mitigare a
+          amenințărilor. Principalele amenințări sunt detaliate mai jos.</p>
+          <br>
+      
+        <p>Dispozitivele mobile sunt utilizate în locații externe ce nu se află sub controlul direct al
+          organizației, fiind astfel expuse pierderii, furtului sau accesului neautorizat. În procesul
+          de planificare a strategiei de securizare a telefoanelor și tabletelor, organizațiile trebuie
+          să ia în considerare faptul că aceste dispozitive vor fi în posesia unor terți rău intenționați
+          care vor încerca sa obțină date sau să acceseze resursele organizației</p>
+        <br> <br>
+        <p>Strategia de protecție pentru aceste cazuri este una stratificată</p>
+        <ul>
+          <li class="lista">Protejarea datelor sensibile prin criptarea datelor de
+            pe dispozitiv sau eliminarea stocării datelor în
+            memoria telefonului ( cazul extrem, foarte dificil de
+            pus în practică, care elimină avantajele
+            dispozitivului mobil).</li>
+          <li class="lista">Al doilea nivel de protecție vizează utilizarea
+            autentificării în momentul accesării dispozitivului
+            mobil și mai ales a resurselor. Majoritatea
+            dispozitivelor mobile utilizează un simplu PIN – se
+            pot însă implementa metode de autentificare bazate
+            pe certificate digitale sau autentificare în domeniu
+            (domain authentication).</li>
+      </div>
+
+      <div class="footer">
+        <p id="tmp" style="font-size: 14px;">Au apărut telefoane mobile inteligente...Unele mai inteligente chiar decât posesorii lor..😂</p>
+        <button onclick="timp()">Data si Ora?</button>
+      </div>
+    </div>
+  </div>
+</body></html>
