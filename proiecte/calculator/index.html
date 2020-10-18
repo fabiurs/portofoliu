@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <script src="app.js"></script>
+   <div class="container">
+
+    <div class="c-resultSiTaste">
+        <div class="result">
+            
+        </div>
+        <!-- taste 1 2 3 .... -->
+        <div class="c-taste">
+            <div class="row">
+                <div class="tasta btn" onclick="adauga(7)">7</div>
+                <div class="tasta btn" onclick="adauga(8)">8</div>
+                <div class="tasta btn" onclick="adauga(9)">9</div>
+            </div>
+            <div class="row">
+                <div class="tasta btn" onclick="adauga(4)">4</div>
+                <div class="tasta btn" onclick="adauga(5)">5</div>
+                <div class="tasta btn" onclick="adauga(6)">6</div>
+            </div>
+            <div class="row">
+                <div class="tasta btn" onclick="adauga(1)">1</div>
+                <div class="tasta btn" onclick="adauga(2)">2</div>
+                <div class="tasta btn" onclick="adauga(3)">3</div>
+            </div>
+            <div class="row">
+                <div class="tasta btn" onclick="adauga('.')">.</div>
+                <div class="tasta btn" onclick="adauga(0)">0</div>
+                <div class="tasta btn" onclick="calculeaza()">=</div>
+            </div>
+        </div>
+    </div>
+    <!-- taste operatii -->
+    <div class="c-semne">
+            <div class="tasta-lat btn" onclick="sterge()">c</div>
+            <div class="tasta-lat btn" onclick="adauga('/')">/</div>
+            <div class="tasta-lat btn" onclick="adauga('*')">*</div>
+            <div class="tasta-lat btn" onclick="adauga('-')">-</div>
+            <div class="tasta-lat btn" onclick="adauga('+')">+</div>
+    </div>
+
+   </div>
+</body>
+
+</html>

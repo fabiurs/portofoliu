@@ -1,0 +1,137 @@
+.Color-Theme-4-1-rgba { color: rgba(38, 54, 63, 1); }
+.Color-Theme-4-2-rgba { color: rgba(40, 84, 89, 1); }
+.Color-Theme-4-3-rgba { color: rgba(190, 216, 216, 1); }
+.Color-Theme-4-4-rgba { color: rgba(117, 165, 165, 1); }
+.Color-Theme-4-5-rgba { color: rgba(140, 114, 99, 1); }
+
+:root{
+    font-size: 16px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(38, 54, 63, 1);
+}
+
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(117, 165, 165, 1);
+    padding: 0.5rem;
+    width: 32rem;
+    height: 25rem;
+    border-radius: 1rem;
+}
+
+.c-resultSiTaste{
+    position: relative;
+    width: 23.5rem;
+    height: 24rem;
+    float: left;
+}
+
+.c-semne{
+    width: 7.5rem;
+    height: 24rem;
+    float: right;
+}
+
+.c-taste{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.row{
+    padding: 1rem;
+    position: relative;
+    height: 20%;
+    width: 100%; 
+    display: flex;
+    justify-content: space-around; 
+}
+
+.result{
+    position: relative;
+    width: 94%;
+    height: 17%;
+    margin: 3%;
+    background-color: rgba(190, 216, 216, 1);
+    border-radius: 1rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    overflow: hidden;
+    color: rgba(17, 57, 61, 0.7);
+}
+
+.tasta .tasta-lat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.tasta{
+    width: 30%;
+}
+
+.tasta-lat{
+    width: 80%;
+    margin: 1rem;
+}
+
+.c-semne{
+    position: relative;
+    height: 100%;
+    width: 23%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn{
+    position: relative;
+    height: 100%;
+    background-color: rgba(40, 84, 89, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(220, 238, 238);
+    border-radius: 1rem;
+    font-size: 2rem;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    background-color: rgba(190, 216, 216, 1);
+    color: rgba(17, 57, 61, 0.7);
+}
+
+@media screen and (max-width: 530px) {
+    :root{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    :root{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    :root{
+        font-size: 9px;
+    }
+}

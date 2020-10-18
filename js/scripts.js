@@ -14,7 +14,9 @@ function afiseaza() {
                 document.getElementById("r5").style.opacity = "1";setTimeout(() => {
                   document.getElementById("r6").style.opacity = "1";setTimeout(() => {
                     document.getElementById("r7").style.opacity = "1";setTimeout(() => {
-                      document.getElementById("r8").style.opacity = "1";        
+                      document.getElementById("r8").style.opacity = "1";setTimeout(() => {
+                        document.getElementById("r9").style.opacity = "1";
+                      }, 500);        
                     }, 1000);        
                   }, 1000);        
                 }, 1000);        
