@@ -30,7 +30,7 @@ html{
 }
 
 body{
-    background-color: #010f03;
+    background-color: #010805;
 }
 
 .click{
@@ -229,8 +229,8 @@ ul.contact{
 }
 
 .tag{
-    color: rgba(239, 236, 202, 0.8);
-    background-color: rgba(0, 47, 47, 0.7);
+    color: rgba(226, 226, 226, 0.959);
+    background-color: rgba(0, 47, 47, 0.39);
     font-size: 0.8rem;
     padding: 5px;
     margin: 5px;
